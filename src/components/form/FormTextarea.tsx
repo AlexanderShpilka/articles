@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Textarea = styled.textarea`
-  width: 250px;
-  height: 150px;
+  width: 100%;
+  max-width: 400px;
+  height: 170px;
   padding: 5px 10px;
   border: none;
   border-radius: 4px;

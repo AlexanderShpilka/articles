@@ -1,4 +1,4 @@
-You can see the deployed version [here](https://nextjs-blog-2-three.now.sh/).
+You can see the deployed version [here](https://articles.alexandershpilka.vercel.app/).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -24,7 +24,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
 
 ## Learn More
 
