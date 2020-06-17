@@ -44,11 +44,15 @@ export default function Form(): JSX.Element {
   return (
     <form onSubmit={handleSubmit}>
       <p>
-        <FormLabel htmlFor="title-value">Title:</FormLabel>
+        <FormLabel htmlFor="title-value">
+          Title <span>(max 255 chars):</span>
+        </FormLabel>
         <FormInput type="text" value={titleValue} handler={handleTitleInputChange} id="title-value" required />
       </p>
       <p>
-        <FormLabel htmlFor="body-value">Body:</FormLabel>
+        <FormLabel htmlFor="body-value">
+          Body <span>(max 255 chars):</span>
+        </FormLabel>
         <FormTextarea value={bodyValue} handler={handleBodyInputChange} id="body-value" required />
       </p>
       <FormButton disabled={sendingArticle}>Send</FormButton>

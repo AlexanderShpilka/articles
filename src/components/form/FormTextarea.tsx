@@ -8,6 +8,7 @@ const Textarea = styled.textarea`
   padding: 5px 10px;
   border: none;
   border-radius: 4px;
+  resize: vertical;
 `;
 
 interface FormTextareaProps {

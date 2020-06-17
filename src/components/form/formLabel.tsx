@@ -3,8 +3,12 @@ import styled from 'styled-components';
 
 const Label = styled.label`
   display: inline-block;
-  min-width: 100px;
+  min-width: 150px;
   color: #090a0b;
+
+  span {
+    font-size: 10px;
+  }
 `;
 
 interface FormLabelProps {
