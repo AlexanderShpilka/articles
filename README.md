@@ -1,4 +1,14 @@
-You can see the deployed version [here](https://articles.alexandershpilka.vercel.app/).
+Link to [application](https://articles.alexandershpilka.vercel.app/).
+
+Link to backend [source code](https://github.com/AlexanderShpilka/articles_api). Backend is deployed to heroku.
+
+Technologies used in this project:
+
+1. React / Next.js
+2. Redux
+3. TypeScript
+4. Express
+5. PostgreSQL
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
