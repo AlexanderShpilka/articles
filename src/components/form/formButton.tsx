@@ -11,9 +11,13 @@ const Button = styled.button`
   cursor: pointer;
   transition: 0.2s;
 
-  &:hover {
+  &:hover:not(:disabled) {
     color: #090a0b;
     background-color: #fff;
+  }
+
+  &:disabled {
+    opacity: 0.6;
   }
 `;
 

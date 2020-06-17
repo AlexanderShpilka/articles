@@ -7,8 +7,13 @@ const ArticleListItem = styled.li`
   padding: 3px 0;
 
   a {
+    font-size: 22px;
     text-transform: capitalize;
     transition: color 0.2s;
+
+    @media (max-width: 425px) {
+      font-size: 20px;
+    }
 
     &:link,
     &:visited {
